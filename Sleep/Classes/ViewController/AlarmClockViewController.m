@@ -29,12 +29,6 @@
 
 -(IBAction)onClick:(id)sender
 {
-    StatisticsViewController *statisCtr = [[StatisticsViewController alloc] init];
-    [statisCtr release];
-    [statisCtr release];
-//    [self presentViewController:statisCtr animated:YES completion:^{
-    
-//    }];
 }
 
 /*
