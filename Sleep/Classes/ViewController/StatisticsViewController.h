@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  StatisticsViewController.h
 //  Sleep
 //
 //  Created by LSJ on 15/12/4.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface StatisticsViewController : UIViewController
 
 @end
-

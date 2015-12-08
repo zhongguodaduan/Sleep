@@ -7,14 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D73E2F71C11D1CD005AA292 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E2F61C11D1CD005AA292 /* main.m */; };
-		6D73E2FA1C11D1CD005AA292 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E2F91C11D1CD005AA292 /* AppDelegate.m */; };
-		6D73E2FD1C11D1CD005AA292 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E2FC1C11D1CD005AA292 /* ViewController.m */; };
-		6D73E3001C11D1CD005AA292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D73E2FE1C11D1CD005AA292 /* Main.storyboard */; };
-		6D73E3021C11D1CD005AA292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D73E3011C11D1CD005AA292 /* Assets.xcassets */; };
-		6D73E3051C11D1CD005AA292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D73E3031C11D1CD005AA292 /* LaunchScreen.storyboard */; };
+		6D6180B51C11E945008F8398 /* StatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6180B31C11E945008F8398 /* StatisticsViewController.m */; };
+		6D6180B81C11E961008F8398 /* StatisticsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D6180B71C11E961008F8398 /* StatisticsViewController.xib */; };
+		6D6180BA1C11EC0D008F8398 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D6180B91C11EC0D008F8398 /* Default@2x.png */; };
+		6D6180FB1C11EC44008F8398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6180FA1C11EC44008F8398 /* LaunchScreen.storyboard */; };
+		6D6180FD1C11ECC0008F8398 /* alarmclock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D6180FC1C11ECC0008F8398 /* alarmclock@2x.png */; };
+		6D6181051C11EFCB008F8398 /* AlarmClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D6181071C11EFCB008F8398 /* AlarmClockViewController.xib */; };
 		6D73E3101C11D1CD005AA292 /* SleepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E30F1C11D1CD005AA292 /* SleepTests.m */; };
 		6D73E31B1C11D1CD005AA292 /* SleepUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E31A1C11D1CD005AA292 /* SleepUITests.m */; };
+		6D73E3401C11D486005AA292 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E3341C11D486005AA292 /* AppDelegate.m */; };
+		6D73E34E1C11D4D4005AA292 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D73E34C1C11D4D4005AA292 /* Info.plist */; };
+		6D73E34F1C11D4D4005AA292 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E34D1C11D4D4005AA292 /* main.m */; };
+		6D73E35B1C11D5F3005AA292 /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E35A1C11D5F3005AA292 /* UncaughtExceptionHandler.m */; };
+		6D73E35F1C11D6AA005AA292 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E35E1C11D6AA005AA292 /* Utility.m */; };
+		6D73E3861C11D8E2005AA292 /* JPCGBitmapContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E3641C11D8E2005AA292 /* JPCGBitmapContext.m */; };
+		6D73E3871C11D8E2005AA292 /* JPCGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E3661C11D8E2005AA292 /* JPCGColor.m */; };
+		6D73E3881C11D8E2005AA292 /* JPCGContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E3681C11D8E2005AA292 /* JPCGContext.m */; };
+		6D73E3891C11D8E2005AA292 /* JPCGGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E36A1C11D8E2005AA292 /* JPCGGeometry.m */; };
+		6D73E38A1C11D8E2005AA292 /* JPCGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E36C1C11D8E2005AA292 /* JPCGImage.m */; };
+		6D73E38B1C11D8E2005AA292 /* JPCGPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E36E1C11D8E2005AA292 /* JPCGPath.m */; };
+		6D73E38C1C11D8E2005AA292 /* JPCGTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E3701C11D8E2005AA292 /* JPCGTransform.m */; };
+		6D73E38D1C11D8E2005AA292 /* JPCoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E3721C11D8E2005AA292 /* JPCoreGraphics.m */; };
+		6D73E38E1C11D8E2005AA292 /* JPInclude.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E3741C11D8E2005AA292 /* JPInclude.m */; };
+		6D73E38F1C11D8E2005AA292 /* JPMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E3761C11D8E2005AA292 /* JPMemory.m */; };
+		6D73E3901C11D8E2005AA292 /* JPStructPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E3781C11D8E2005AA292 /* JPStructPointer.m */; };
+		6D73E3911C11D8E2005AA292 /* JPUIGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E37B1C11D8E2005AA292 /* JPUIGeometry.m */; };
+		6D73E3921C11D8E2005AA292 /* JPUIGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E37D1C11D8E2005AA292 /* JPUIGraphics.m */; };
+		6D73E3931C11D8E2005AA292 /* JPUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E37F1C11D8E2005AA292 /* JPUIImage.m */; };
+		6D73E3941C11D8E2005AA292 /* JPUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E3811C11D8E2005AA292 /* JPUIKit.m */; };
+		6D73E3951C11D8E2005AA292 /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E3841C11D8E2005AA292 /* JPEngine.m */; };
+		6D73E3961C11D8E2005AA292 /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = 6D73E3851C11D8E2005AA292 /* JSPatch.js */; };
+		6D73E39E1C11DE3A005AA292 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D73E3A01C11DE3A005AA292 /* Localizable.strings */; };
+		6D73E3A71C11E0F3005AA292 /* AlarmClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E3A51C11E0F3005AA292 /* AlarmClockViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +59,67 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D6180B21C11E945008F8398 /* StatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsViewController.h; sourceTree = "<group>"; };
+		6D6180B31C11E945008F8398 /* StatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsViewController.m; sourceTree = "<group>"; };
+		6D6180B71C11E961008F8398 /* StatisticsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatisticsViewController.xib; sourceTree = "<group>"; };
+		6D6180B91C11EC0D008F8398 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6D6180FA1C11EC44008F8398 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D6180FC1C11ECC0008F8398 /* alarmclock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarmclock@2x.png"; sourceTree = "<group>"; };
+		6D6181061C11EFCB008F8398 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AlarmClockViewController.xib; sourceTree = "<group>"; };
+		6D6181091C11F001008F8398 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/AlarmClockViewController.xib"; sourceTree = "<group>"; };
 		6D73E2F21C11D1CD005AA292 /* Sleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D73E2F61C11D1CD005AA292 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6D73E2F81C11D1CD005AA292 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6D73E2F91C11D1CD005AA292 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6D73E2FB1C11D1CD005AA292 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6D73E2FC1C11D1CD005AA292 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6D73E2FF1C11D1CD005AA292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6D73E3011C11D1CD005AA292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6D73E3041C11D1CD005AA292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6D73E3061C11D1CD005AA292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D73E30B1C11D1CD005AA292 /* SleepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D73E30F1C11D1CD005AA292 /* SleepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepTests.m; sourceTree = "<group>"; };
 		6D73E3111C11D1CD005AA292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D73E3161C11D1CD005AA292 /* SleepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D73E31A1C11D1CD005AA292 /* SleepUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepUITests.m; sourceTree = "<group>"; };
 		6D73E31C1C11D1CD005AA292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D73E3331C11D486005AA292 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D73E3341C11D486005AA292 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D73E3361C11D486005AA292 /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		6D73E34C1C11D4D4005AA292 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D73E34D1C11D4D4005AA292 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D73E3591C11D5F3005AA292 /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		6D73E35A1C11D5F3005AA292 /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		6D73E35D1C11D6AA005AA292 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		6D73E35E1C11D6AA005AA292 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		6D73E3631C11D8E2005AA292 /* JPCGBitmapContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGBitmapContext.h; sourceTree = "<group>"; };
+		6D73E3641C11D8E2005AA292 /* JPCGBitmapContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGBitmapContext.m; sourceTree = "<group>"; };
+		6D73E3651C11D8E2005AA292 /* JPCGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGColor.h; sourceTree = "<group>"; };
+		6D73E3661C11D8E2005AA292 /* JPCGColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGColor.m; sourceTree = "<group>"; };
+		6D73E3671C11D8E2005AA292 /* JPCGContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGContext.h; sourceTree = "<group>"; };
+		6D73E3681C11D8E2005AA292 /* JPCGContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGContext.m; sourceTree = "<group>"; };
+		6D73E3691C11D8E2005AA292 /* JPCGGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGGeometry.h; sourceTree = "<group>"; };
+		6D73E36A1C11D8E2005AA292 /* JPCGGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGGeometry.m; sourceTree = "<group>"; };
+		6D73E36B1C11D8E2005AA292 /* JPCGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGImage.h; sourceTree = "<group>"; };
+		6D73E36C1C11D8E2005AA292 /* JPCGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGImage.m; sourceTree = "<group>"; };
+		6D73E36D1C11D8E2005AA292 /* JPCGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGPath.h; sourceTree = "<group>"; };
+		6D73E36E1C11D8E2005AA292 /* JPCGPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGPath.m; sourceTree = "<group>"; };
+		6D73E36F1C11D8E2005AA292 /* JPCGTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGTransform.h; sourceTree = "<group>"; };
+		6D73E3701C11D8E2005AA292 /* JPCGTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGTransform.m; sourceTree = "<group>"; };
+		6D73E3711C11D8E2005AA292 /* JPCoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCoreGraphics.h; sourceTree = "<group>"; };
+		6D73E3721C11D8E2005AA292 /* JPCoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCoreGraphics.m; sourceTree = "<group>"; };
+		6D73E3731C11D8E2005AA292 /* JPInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPInclude.h; sourceTree = "<group>"; };
+		6D73E3741C11D8E2005AA292 /* JPInclude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPInclude.m; sourceTree = "<group>"; };
+		6D73E3751C11D8E2005AA292 /* JPMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPMemory.h; sourceTree = "<group>"; };
+		6D73E3761C11D8E2005AA292 /* JPMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPMemory.m; sourceTree = "<group>"; };
+		6D73E3771C11D8E2005AA292 /* JPStructPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPStructPointer.h; sourceTree = "<group>"; };
+		6D73E3781C11D8E2005AA292 /* JPStructPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPStructPointer.m; sourceTree = "<group>"; };
+		6D73E37A1C11D8E2005AA292 /* JPUIGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIGeometry.h; sourceTree = "<group>"; };
+		6D73E37B1C11D8E2005AA292 /* JPUIGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIGeometry.m; sourceTree = "<group>"; };
+		6D73E37C1C11D8E2005AA292 /* JPUIGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIGraphics.h; sourceTree = "<group>"; };
+		6D73E37D1C11D8E2005AA292 /* JPUIGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIGraphics.m; sourceTree = "<group>"; };
+		6D73E37E1C11D8E2005AA292 /* JPUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIImage.h; sourceTree = "<group>"; };
+		6D73E37F1C11D8E2005AA292 /* JPUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIImage.m; sourceTree = "<group>"; };
+		6D73E3801C11D8E2005AA292 /* JPUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIKit.h; sourceTree = "<group>"; };
+		6D73E3811C11D8E2005AA292 /* JPUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIKit.m; sourceTree = "<group>"; };
+		6D73E3831C11D8E2005AA292 /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		6D73E3841C11D8E2005AA292 /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		6D73E3851C11D8E2005AA292 /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+		6D73E39F1C11DE3A005AA292 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6D73E3A31C11DE58005AA292 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6D73E3A41C11E0F3005AA292 /* AlarmClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmClockViewController.h; sourceTree = "<group>"; };
+		6D73E3A51C11E0F3005AA292 /* AlarmClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmClockViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,25 +170,11 @@
 		6D73E2F41C11D1CD005AA292 /* Sleep */ = {
 			isa = PBXGroup;
 			children = (
-				6D73E2F81C11D1CD005AA292 /* AppDelegate.h */,
-				6D73E2F91C11D1CD005AA292 /* AppDelegate.m */,
-				6D73E2FB1C11D1CD005AA292 /* ViewController.h */,
-				6D73E2FC1C11D1CD005AA292 /* ViewController.m */,
-				6D73E2FE1C11D1CD005AA292 /* Main.storyboard */,
-				6D73E3011C11D1CD005AA292 /* Assets.xcassets */,
-				6D73E3031C11D1CD005AA292 /* LaunchScreen.storyboard */,
-				6D73E3061C11D1CD005AA292 /* Info.plist */,
-				6D73E2F51C11D1CD005AA292 /* Supporting Files */,
+				6D73E3311C11D486005AA292 /* Classes */,
+				6D73E3501C11D4EA005AA292 /* Resource */,
+				6D73E34B1C11D4D4005AA292 /* Supporting Files */,
 			);
 			path = Sleep;
-			sourceTree = "<group>";
-		};
-		6D73E2F51C11D1CD005AA292 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6D73E2F61C11D1CD005AA292 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6D73E30E1C11D1CD005AA292 /* SleepTests */ = {
@@ -138,6 +193,183 @@
 				6D73E31C1C11D1CD005AA292 /* Info.plist */,
 			);
 			path = SleepUITests;
+			sourceTree = "<group>";
+		};
+		6D73E3311C11D486005AA292 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6D73E3321C11D486005AA292 /* AppDelegate */,
+				6D73E3351C11D486005AA292 /* Config */,
+				6D73E3371C11D486005AA292 /* Model */,
+				6D73E3381C11D486005AA292 /* Request */,
+				6D73E33A1C11D486005AA292 /* Tools */,
+				6D73E33B1C11D486005AA292 /* Vender */,
+				6D73E33C1C11D486005AA292 /* ViewController */,
+				6D73E33F1C11D486005AA292 /* ViewModel */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6D73E3321C11D486005AA292 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6D73E3331C11D486005AA292 /* AppDelegate.h */,
+				6D73E3341C11D486005AA292 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6D73E3351C11D486005AA292 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6D73E3361C11D486005AA292 /* Const.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		6D73E3371C11D486005AA292 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D73E3381C11D486005AA292 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		6D73E33A1C11D486005AA292 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6D73E3591C11D5F3005AA292 /* UncaughtExceptionHandler.h */,
+				6D73E35A1C11D5F3005AA292 /* UncaughtExceptionHandler.m */,
+				6D73E35D1C11D6AA005AA292 /* Utility.h */,
+				6D73E35E1C11D6AA005AA292 /* Utility.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6D73E33B1C11D486005AA292 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				6D73E3601C11D8E2005AA292 /* JSPatch */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		6D73E33C1C11D486005AA292 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D73E3A41C11E0F3005AA292 /* AlarmClockViewController.h */,
+				6D73E3A51C11E0F3005AA292 /* AlarmClockViewController.m */,
+				6D6180B21C11E945008F8398 /* StatisticsViewController.h */,
+				6D6180B31C11E945008F8398 /* StatisticsViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6D73E33F1C11D486005AA292 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6D73E34B1C11D4D4005AA292 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D73E34C1C11D4D4005AA292 /* Info.plist */,
+				6D73E34D1C11D4D4005AA292 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D73E3501C11D4EA005AA292 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6D6180FC1C11ECC0008F8398 /* alarmclock@2x.png */,
+				6D6180FA1C11EC44008F8398 /* LaunchScreen.storyboard */,
+				6D6180B91C11EC0D008F8398 /* Default@2x.png */,
+				6D6180B71C11E961008F8398 /* StatisticsViewController.xib */,
+				6D6181071C11EFCB008F8398 /* AlarmClockViewController.xib */,
+				6D73E3A01C11DE3A005AA292 /* Localizable.strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6D73E3601C11D8E2005AA292 /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				6D73E3611C11D8E2005AA292 /* Extensions */,
+				6D73E3821C11D8E2005AA292 /* JSPatch */,
+			);
+			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		6D73E3611C11D8E2005AA292 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6D73E3621C11D8E2005AA292 /* CoreGraphics */,
+				6D73E3731C11D8E2005AA292 /* JPInclude.h */,
+				6D73E3741C11D8E2005AA292 /* JPInclude.m */,
+				6D73E3751C11D8E2005AA292 /* JPMemory.h */,
+				6D73E3761C11D8E2005AA292 /* JPMemory.m */,
+				6D73E3771C11D8E2005AA292 /* JPStructPointer.h */,
+				6D73E3781C11D8E2005AA292 /* JPStructPointer.m */,
+				6D73E3791C11D8E2005AA292 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6D73E3621C11D8E2005AA292 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				6D73E3631C11D8E2005AA292 /* JPCGBitmapContext.h */,
+				6D73E3641C11D8E2005AA292 /* JPCGBitmapContext.m */,
+				6D73E3651C11D8E2005AA292 /* JPCGColor.h */,
+				6D73E3661C11D8E2005AA292 /* JPCGColor.m */,
+				6D73E3671C11D8E2005AA292 /* JPCGContext.h */,
+				6D73E3681C11D8E2005AA292 /* JPCGContext.m */,
+				6D73E3691C11D8E2005AA292 /* JPCGGeometry.h */,
+				6D73E36A1C11D8E2005AA292 /* JPCGGeometry.m */,
+				6D73E36B1C11D8E2005AA292 /* JPCGImage.h */,
+				6D73E36C1C11D8E2005AA292 /* JPCGImage.m */,
+				6D73E36D1C11D8E2005AA292 /* JPCGPath.h */,
+				6D73E36E1C11D8E2005AA292 /* JPCGPath.m */,
+				6D73E36F1C11D8E2005AA292 /* JPCGTransform.h */,
+				6D73E3701C11D8E2005AA292 /* JPCGTransform.m */,
+				6D73E3711C11D8E2005AA292 /* JPCoreGraphics.h */,
+				6D73E3721C11D8E2005AA292 /* JPCoreGraphics.m */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		6D73E3791C11D8E2005AA292 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6D73E37A1C11D8E2005AA292 /* JPUIGeometry.h */,
+				6D73E37B1C11D8E2005AA292 /* JPUIGeometry.m */,
+				6D73E37C1C11D8E2005AA292 /* JPUIGraphics.h */,
+				6D73E37D1C11D8E2005AA292 /* JPUIGraphics.m */,
+				6D73E37E1C11D8E2005AA292 /* JPUIImage.h */,
+				6D73E37F1C11D8E2005AA292 /* JPUIImage.m */,
+				6D73E3801C11D8E2005AA292 /* JPUIKit.h */,
+				6D73E3811C11D8E2005AA292 /* JPUIKit.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		6D73E3821C11D8E2005AA292 /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				6D73E3831C11D8E2005AA292 /* JPEngine.h */,
+				6D73E3841C11D8E2005AA292 /* JPEngine.m */,
+				6D73E3851C11D8E2005AA292 /* JSPatch.js */,
+			);
+			path = JSPatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +457,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 6D73E2E91C11D1CD005AA292;
 			productRefGroup = 6D73E2F31C11D1CD005AA292 /* Products */;
@@ -243,9 +476,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D73E3051C11D1CD005AA292 /* LaunchScreen.storyboard in Resources */,
-				6D73E3021C11D1CD005AA292 /* Assets.xcassets in Resources */,
-				6D73E3001C11D1CD005AA292 /* Main.storyboard in Resources */,
+				6D6180BA1C11EC0D008F8398 /* Default@2x.png in Resources */,
+				6D73E3961C11D8E2005AA292 /* JSPatch.js in Resources */,
+				6D73E39E1C11DE3A005AA292 /* Localizable.strings in Resources */,
+				6D73E34E1C11D4D4005AA292 /* Info.plist in Resources */,
+				6D6180FB1C11EC44008F8398 /* LaunchScreen.storyboard in Resources */,
+				6D6181051C11EFCB008F8398 /* AlarmClockViewController.xib in Resources */,
+				6D6180B81C11E961008F8398 /* StatisticsViewController.xib in Resources */,
+				6D6180FD1C11ECC0008F8398 /* alarmclock@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +508,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D73E2FD1C11D1CD005AA292 /* ViewController.m in Sources */,
-				6D73E2FA1C11D1CD005AA292 /* AppDelegate.m in Sources */,
-				6D73E2F71C11D1CD005AA292 /* main.m in Sources */,
+				6D73E3951C11D8E2005AA292 /* JPEngine.m in Sources */,
+				6D73E38B1C11D8E2005AA292 /* JPCGPath.m in Sources */,
+				6D73E3861C11D8E2005AA292 /* JPCGBitmapContext.m in Sources */,
+				6D73E3911C11D8E2005AA292 /* JPUIGeometry.m in Sources */,
+				6D73E38E1C11D8E2005AA292 /* JPInclude.m in Sources */,
+				6D73E3941C11D8E2005AA292 /* JPUIKit.m in Sources */,
+				6D73E38D1C11D8E2005AA292 /* JPCoreGraphics.m in Sources */,
+				6D73E3881C11D8E2005AA292 /* JPCGContext.m in Sources */,
+				6D73E35B1C11D5F3005AA292 /* UncaughtExceptionHandler.m in Sources */,
+				6D73E3921C11D8E2005AA292 /* JPUIGraphics.m in Sources */,
+				6D73E3891C11D8E2005AA292 /* JPCGGeometry.m in Sources */,
+				6D73E38C1C11D8E2005AA292 /* JPCGTransform.m in Sources */,
+				6D73E3871C11D8E2005AA292 /* JPCGColor.m in Sources */,
+				6D73E38F1C11D8E2005AA292 /* JPMemory.m in Sources */,
+				6D73E35F1C11D6AA005AA292 /* Utility.m in Sources */,
+				6D73E3901C11D8E2005AA292 /* JPStructPointer.m in Sources */,
+				6D73E38A1C11D8E2005AA292 /* JPCGImage.m in Sources */,
+				6D73E34F1C11D4D4005AA292 /* main.m in Sources */,
+				6D73E3A71C11E0F3005AA292 /* AlarmClockViewController.m in Sources */,
+				6D6180B51C11E945008F8398 /* StatisticsViewController.m in Sources */,
+				6D73E3401C11D486005AA292 /* AppDelegate.m in Sources */,
+				6D73E3931C11D8E2005AA292 /* JPUIImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +565,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6D73E2FE1C11D1CD005AA292 /* Main.storyboard */ = {
+		6D6181071C11EFCB008F8398 /* AlarmClockViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6D73E2FF1C11D1CD005AA292 /* Base */,
+				6D6181061C11EFCB008F8398 /* en */,
+				6D6181091C11F001008F8398 /* zh-Hans */,
 			);
-			name = Main.storyboard;
+			name = AlarmClockViewController.xib;
 			sourceTree = "<group>";
 		};
-		6D73E3031C11D1CD005AA292 /* LaunchScreen.storyboard */ = {
+		6D73E3A01C11DE3A005AA292 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6D73E3041C11D1CD005AA292 /* Base */,
+				6D73E39F1C11DE3A005AA292 /* en */,
+				6D73E3A31C11DE58005AA292 /* zh-Hans */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -410,8 +669,13 @@
 		6D73E3201C11D1CD005AA292 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Sleep/Info.plist;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Sleep/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lsj.sleep.Sleep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -421,8 +685,13 @@
 		6D73E3211C11D1CD005AA292 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Sleep/Info.plist;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Sleep/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lsj.sleep.Sleep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +765,7 @@
 				6D73E3211C11D1CD005AA292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D73E3221C11D1CD005AA292 /* Build configuration list for PBXNativeTarget "SleepTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +774,7 @@
 				6D73E3241C11D1CD005AA292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D73E3251C11D1CD005AA292 /* Build configuration list for PBXNativeTarget "SleepUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +783,7 @@
 				6D73E3271C11D1CD005AA292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Sleep
+
+  Created by LSJ on 15/12/4.
+  Copyright © 2015年 LSJ. All rights reserved.
+*/
+"kAlarmClock" = "闹钟";
+"kStatistics" = "统计";
+"kStart" = "开始";
